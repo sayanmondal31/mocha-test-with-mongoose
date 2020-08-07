@@ -83,6 +83,6 @@ describe("Update test",()=>{
             assert(students[0].name !== "Updater");
             assert(students[0].name === "UPUPdater");
             done();
-        })
-    })
-})
+        });
+    });
+});
